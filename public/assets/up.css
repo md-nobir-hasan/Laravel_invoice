@@ -1,0 +1,167 @@
+.td_css {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.5;
+    padding: 0 !important;
+}
+td #custom-btn {
+    height: 20px;
+    width: 29px;
+    padding: 0;
+    background: none;
+    border: none;
+}
+td .spacing {
+    margin-left: 10px;
+}
+td {
+    padding: 0.5rem;
+    text-align: center;
+    padding: 0;
+    line-height: unset;
+}
+td .edit_btn {
+    padding: 0.5rem;
+    background: none !important;
+    height: 20px;
+    width: 20px;
+    border: none !important;
+    line-height: 20px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+td #custom-btn i {
+    color: red;
+}
+td a i {
+    color: lime;
+}
+
+tbody .td_n_img img {
+    height: 45px;
+    width: 60px;
+}
+
+tbody tr td {
+    line-height: unset;
+    padding: unset;
+}
+
+.tr_n_td td {
+    padding: -1px;
+    padding-top: 18px;
+}
+
+.dataTables_length {
+    /* display: inline-block; */
+    /* margin-right: 62%; */
+    padding-top: 20px;
+    padding: 10px;
+}
+.dataTables_filter {
+    display: inline-block;
+    padding: 0px 0px 5px 10px;
+    margin-bottom: 20px;
+}
+
+.dataTables_paginate {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px;
+    padding: 10px;
+}
+
+.dataTables_info {
+    padding: 0px 0px 5px 10px;
+}
+
+.paginate_button {
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    /* justify-content: space-around; */
+}
+.details {
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.box .img img {
+    height: 60px;
+}
+.phone {
+    cursor: pointer;
+}
+.phone_num {
+    display: none;
+}
+.domain {
+    display: none !important;
+}
+.edit_domain {
+    display: none !important;
+}
+.edit_hosting {
+    display: none !important;
+}
+.hosting {
+    display: none !important;
+}
+.project {
+    display: none !important;
+}
+.edit_project {
+    display: none !important;
+}
+.total_rate {
+    display: none !important;
+}
+.without_ampm::-webkit-datetime-edit-ampm-field {
+    display: none !important;
+}
+input[type="time"]::-webkit-clear-button {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -o-appearance: none !important;
+    -ms-appearance: none !important;
+    appearance: none !important;
+}
+table td {
+    padding: 0rem;
+}
+.table .border-th th,
+.table .border-th td{
+    border: none;
+}
+.table .text-right{
+    text-align: right;
+}
+.table .text-left{
+    text-align: left;
+}
+.table-section th {
+    padding-bottom: 20px;
+}
+.table-section td{
+    padding: 20px 0;
+}
+.toggle-btn button {
+    background: #FFFFC4;
+    margin-right: 5px;
+}
+.toggle-section button {
+    background: #FFFFC4;
+    margin-right: 5px;
+}
+#navbarSupportedContent{
+    background: #233242 !important;
+}
+#navbarSupportedContent .navbar-nav .search-box{
+    display: none;
+}
+

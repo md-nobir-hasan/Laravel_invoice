@@ -1,0 +1,26 @@
+Table=> domain_details
+	SELECT `id` , `c_type_id` , `c_info_id` 
+	, `domain_name` , `domain_end_date` , 
+	`domain_start_date` FROM `domain_details`
+	 WHERE 1
+
+
+Table=> invoices
+	SELECT `id`, `domain_id`, `hosting_id`,
+	`other_project_id`, `c_type_id`, `c_info_id`, 
+	`invoice_details`, `time_quote_hour`, 
+	`time_quote_min`, `rate_per_hour`, `total_rate`,
+	`currency_type`, `attachment`, `created_at`,
+	`updated_at`, `invoice_status`, 
+	`invoiceDate`, `invoiceAlertDate` FROM `invoices`
+	WHERE 1
+
+
+Table=> domain_details
+		SELECT `id` , `c_type_id` , `c_info_id` , `domain_name` , `domain_end_date` , `domain_start_date` FROM `domain_details` WHERE 1
+Table=> domain_details
+		SELECT `id` , `c_type_id` , `c_info_id` , `domain_name` , `domain_end_date` , `domain_start_date` FROM `domain_details` WHERE 1
+Table=> domain_details
+		SELECT `id` , `c_type_id` , `c_info_id` , `domain_name` , `domain_end_date` , `domain_start_date` FROM `domain_details` WHERE 1
+Table=> domain_details
+		SELECT `id` , `c_type_id` , `c_info_id` , `domain_name` , `domain_end_date` , `domain_start_date` FROM `domain_details` WHERE 1

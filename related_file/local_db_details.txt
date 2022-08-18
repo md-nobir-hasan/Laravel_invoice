@@ -1,0 +1,4 @@
+DBname:invoice
+UserName:root
+password:
+host:localhost
